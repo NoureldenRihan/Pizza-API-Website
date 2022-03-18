@@ -78,6 +78,13 @@ a {
   border-radius: 20px;
   margin-bottom: 30px;
 }
+
+@media (max-width: 767px) {
+  .content-box {
+    padding: 25px 30px;
+    margin-bottom: 20px;
+  }
+}
 /* End Components */
 /* Start Navbar */
 
