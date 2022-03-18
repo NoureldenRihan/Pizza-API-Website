@@ -1,4 +1,4 @@
-fetch("http://pizza-data-api.herokuapp.com/pizzas")
+fetch("https://pizza-data-api.herokuapp.com/pizzas")
   .then((res) => res.json())
   .then((data) => renderPizzaNum(data.length));
 
